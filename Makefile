@@ -1,6 +1,6 @@
 build:
 	mkdir -p functions
 	GOOS=linux
-   GOARCH=amd64
-   GO111MODULE=on
-   GOBIN=${PWD}/functions go install ./...
+	GOARCH=amd64
+	GO111MODULE=on
+	GOBIN=${PWD}/functions go install ./...
